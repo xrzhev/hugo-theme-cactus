@@ -23,6 +23,9 @@ article {
     .postdate {
       display: inline;
     }
+    .lastmoddate {
+      display: inline;
+    }
   }
   .content {
     h2 {
@@ -145,10 +148,12 @@ article {
     @include underline(10px, $color-link);
   }
 }
+
 @media (min-width: 480px) {
   .article-read-time,
   .article-tag,
-  .article-category {
+  .article-category,
+  .lastmoddate {
     display: inline;
 
     &:before {
