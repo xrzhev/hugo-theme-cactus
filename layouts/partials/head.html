@@ -15,6 +15,7 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
+  <meta name=“twitter:image” content="{{ .Permalink }}img/ogp/index.png">
   {{ .Scratch.Set "colortheme" "white"}}
   {{ if .Site.Params.Colortheme }}
     {{ .Scratch.Set "colortheme" .Site.Params.Colortheme }}
