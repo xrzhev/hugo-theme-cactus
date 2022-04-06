@@ -156,7 +156,7 @@
     overflow: auto;
     margin-top: 1rem;
     padding-right: 2rem;
-    max-width: 20em;
+    max-width: 35em;
     max-height: calc(95vh - 7rem);
     text-align: right;
 
@@ -168,7 +168,7 @@
 
     nav > ul > li {
       color: $color-text;
-      font-size: .8rem;
+      font-size: .85rem;
 
       &:before {
         color: $color-accent-1;
@@ -178,13 +178,14 @@
     }
     nav > ul > li > ul > li {
       color: $color-meta;
-      font-size: .7rem;
+      font-size: .8rem;
 
       &:before {
         color: $color-accent-1;
         content: "·";
         font-weight: bold;
-        margin-right: 3px;
+        //margin-right: 3px;
+        margin-right: 8px;
       }
     }
     nav > ul > li > ul > li > ul > li {
