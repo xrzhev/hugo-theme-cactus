@@ -22,15 +22,23 @@ h2,
   text-transform: none;
   letter-spacing: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 h3 {
+  position: relative;
+  display: block;
   color: $color-accent-2;
-  text-decoration: underline;
+  //text-decoration: underline;
   font-weight: bold;
-  font-size: .9rem;
+  font-size: 1.2rem;
 }
-h4
+h4 {
+  position: relative;
+  display: block;
+  color: $color-accent-2;
+  font-weight: bold;
+  font-size: 1rem;
+}
 h5
 h6 {
   display: inline;
