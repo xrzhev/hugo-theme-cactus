@@ -18,6 +18,7 @@ h2,
   display: block;
   margin-top: 2rem;
   margin-bottom: .5rem;
+  margin-left: 1rem;
   color: $color-accent-2;
   text-transform: none;
   letter-spacing: normal;
@@ -27,6 +28,7 @@ h2,
 h3 {
   position: relative;
   display: block;
+  margin-left: 1.5rem;
   color: $color-accent-2;
   //text-decoration: underline;
   font-weight: bold;
@@ -35,6 +37,7 @@ h3 {
 h4 {
   position: relative;
   display: block;
+  margin-left: 2rem;
   color: $color-accent-2;
   font-weight: bold;
   font-size: 1rem;
