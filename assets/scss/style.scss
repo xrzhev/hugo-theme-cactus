@@ -229,3 +229,15 @@ code {
     }
   }
 }
+
+blockquote {
+  background: $color-background-backquote;
+  border-left: 10px solid $color-border;  /* シンプルな左側の引用ライン */
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+/* blockquoteの中の最初の子要素をインライン表示 */
+blockquote :first-child {
+  display: inline;
+}
